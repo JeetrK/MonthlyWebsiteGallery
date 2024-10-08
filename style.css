@@ -3,13 +3,50 @@
     width: 400;
 }
 #welcometext {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
 }
-.anton-regular {
-    font-family: "Anton", sans-serif;
+p {
+    font-family: "Prompt", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
+  }
+ .card {
+border-color: white;
+border: 20px;
+border-width: 20px;
+background-color:#6f4ebd;
+transition: 0.5s;
+  }
+  .card:hover {
+    border-color: white;
+    border: 20px;
+    border-width: 20px;
+    background-color:#ffffff;
+    scale: 105%;
+    transition: 0.5s;
+      }
+  body {
+    background-image: url(https://cdn.pixabay.com/animation/2022/11/08/06/19/06-19-11-383_512.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-text {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+  }
+  .card-title {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text
   }
   
+  
+
