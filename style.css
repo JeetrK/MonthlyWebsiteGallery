@@ -18,19 +18,27 @@ p {
 border-color: white;
 border: 20px;
 border-width: 20px;
-background-color:#6f4ebd;
+background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;  
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+
 transition: 0.5s;
   }
   .card:hover {
     border-color: white;
     border: 20px;
     border-width: 20px;
-    background-color:#ffffff;
+    background-color:#6f4ebd;
     scale: 105%;
     transition: 0.5s;
       }
   body {
-    background-image: url(https://cdn.pixabay.com/animation/2022/11/08/06/19/06-19-11-383_512.gif);
+    background-image: url(https://i.makeagif.com/media/11-20-2018/ym0paA.gif);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -45,7 +53,13 @@ transition: 0.5s;
     font-weight: 600;
     font-style: normal;
     color: black;
-    text
+  }
+  #mainpic {
+    width: 400px;
+    height: 400px;
+  }
+  .navbar {
+    opacity: 80%;
   }
   
   
