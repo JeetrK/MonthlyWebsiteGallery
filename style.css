@@ -59,7 +59,12 @@ transition: 0.5s;
     height: 400px;
   }
   .navbar {
-    opacity: 80%;
+    opacity: 75%;
+    transition: 0.5s;
+  }
+  .navbar:hover {
+    opacity: 100%;
+    transition: 0.5s;
   }
   
   
